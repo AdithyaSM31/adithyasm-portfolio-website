@@ -1,0 +1,26 @@
+{
+  "name": "adithyasm-portfolio",
+  "version": "1.0.0",
+  "description": "Space-themed portfolio website for Computer Engineer with Three.js 3D elements",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "http-server -p 3000",
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "keywords": ["portfolio", "threejs", "space", "3d", "computer-engineering"],
+  "author": "Adithya SM",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "three": "^0.158.0",
+    "gsap": "^3.12.2",
+    "locomotive-scroll": "^4.0.6"
+  }
+}
